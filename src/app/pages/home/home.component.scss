@@ -1,0 +1,126 @@
+h1 {
+    text-align: center;
+    color: #111;
+}
+
+.skills-container {
+    margin-top: 1em;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.circular-progress {
+
+    &,
+    &:before,
+    &:after {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    margin: auto;
+
+    position: relative;
+
+    &:before,
+    &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    &:before {
+        padding: .5em;
+        line-height: 70px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    &:after {
+        font-size: .8rem;
+        font-weight: normal;
+        text-transform: unset;
+        line-height: 115px;
+    }
+}
+
+@function progress($percent) {
+    $deg: $percent/100 * 180;
+    @return #{$deg}deg;
+}
+
+@mixin circular-progress($percent, $skill, $color, $bgcolor) {
+
+    $progress: progress($percent);
+    background: linear-gradient(0deg, $color 50%, rgba($color, .3) 50%);
+    transform: rotate($progress);
+
+    &:before,
+    &:after {
+        color: $color;
+    }
+
+    &:before {
+        background: $bgcolor content-box;
+        transform: rotate(-#{$progress});
+        content: "#{$percent}%";
+    }
+
+    &:after {
+        background: linear-gradient(transparent 50%, $bgcolor 50%);
+        content: "#{$skill}";
+        transform: rotate(-#{$progress}) scale(1.1);
+    }
+}
+
+.html5 {
+    @include circular-progress(10, Html 5, lighten(orange, 20), #111);
+}
+
+.css3 {
+    @include circular-progress(50, css 3, lighten(blue, 30), #111);
+}
+
+.javascript {
+    @include circular-progress(70, javascript, lighten(yellow, 30), #111);
+}
+
+.angular {
+    @include circular-progress(80, Angular, lighten(darkred, 30), #111);
+}
+
+.vuejs {
+    @include circular-progress(80, VueJS, lighten(rgb(166, 255, 0), 30), #111);
+}
+
+.git {
+    @include circular-progress(80, Git, lighten(orange, 30), #111);
+}
+
+.react {
+    @include circular-progress(80, React, lighten(lightblue, 30), #111);
+}
+
+.java {
+    @include circular-progress(80, Java, lighten(rgba(255, 0, 13, 0.411), 30), #111);
+}
+
+.phyton {
+    @include circular-progress(80, Phyton, lighten(rgba(0, 255, 179, 0.658), 30), #111);
+}
+
+.mysql {
+    @include circular-progress(80, MySQL, lighten(rgb(255, 251, 0), 30), #111);
+}
+
+.bootstrap1 {
+    @include circular-progress(80, Bootstrap, lighten(purple, 30), #111);
+}
+
+.github {
+    @include circular-progress(80, GitHub, lighten(purple, 30), #111);
+}

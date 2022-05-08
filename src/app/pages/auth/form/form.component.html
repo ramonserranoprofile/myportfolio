@@ -1,0 +1,29 @@
+<section class="auth-form">
+    <div class="text-center">
+        <h3 class="h3">{{options.label}}</h3>
+    </div>
+    <form [formGroup]="authForm" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="d-grid">
+            <button type="submit" class="btn btn-primary">{{options.label}}</button>
+        </div>
+        <div class="text-center mt-5">
+            <ng-container *ngIf="options.id === signIn; else showSignTemplate">
+                <a [routerLink]="['/sign-up']" class="text-black">Create new account</a>
+            </ng-container>
+        </div>
+    </form>
+    <ng-template #showSignTemplate>
+        <a [routerLink]="['/sign-in']" class="text-black">
+            Already have an account? <small>Sign In here!</small>
+        </a>
+    </ng-template>
+</section>

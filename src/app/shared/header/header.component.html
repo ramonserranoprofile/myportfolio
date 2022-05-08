@@ -1,0 +1,107 @@
+<header>
+    <div class="toggle"><i class="fas fa-2x fa-bars" data-bs-toggle="collapse"></i></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid ">
+            <a class="rainbow rainbow_text_animated" [routerLink]="['/home']">
+                <span>R</span>amón <span class="rainbow rainbow_text_animated">S</span>errano.</a>
+
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="navbar navbar-expand-lg" id="navbarNavAltMarkup">
+
+                <ng-container *ngIf="(user$ | async) === null; else logOutTemplate">
+                    <ul class="nav nav--hightlighted nav__open navbar-nav  mr-auto mt-2 mt-lg-0">
+                        <li class="nav__item">
+                            <a class="nav-link" aria-current="page" [routerLink]="['/sign-in']">Sign in<button
+                                    class="nav__item" tabindex="1" [routerLink]="['/sign-in']">
+                                    <img src="https://cdn.iconscout.com/icon/free/png-64/login-1440156-1214657.png"
+                                        alt="sign-in" class="login__img"></button></a>
+                        <li class="nav__item">
+                            <a class="nav-link" [routerLink]="['/sign-up']">Sign up<button class="nav__item"
+                                    tabindex="0"><img
+                                        src="https://cdn.iconscout.com/icon/premium/png-64-thumb/sign-up-4621286-3841288.png"
+                                        alt="sign-up" class="login__img" [routerLink]="['/sign-up']"></button></a>
+
+                        </li>
+                    </ul>
+                </ng-container>
+                <ng-container class=" nav-fill ">
+                    <ul class="nav nav--hightlighted nav__open   mt-2 mt-lg-0 ">
+                        <li class="nav__item"><a href="#about">About</a></li>
+                        <li class="nav__item"><a href="#skill">Skills</a></li>
+                        <li class="nav__item"><a href="#projects">Projects</a></li>
+                        <li class="nav__item"><a href="#contact">Contact</a></li>
+                    </ul>
+                </ng-container>
+                <ng-template #logOutTemplate>
+                    <ul class="nav nav--hightlighted nav__open navbar-nav  mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a [routerLink]="['/home']" (click)="onLogout()" class="nav-link">Logout<button
+                                    class="nav__item" style="padding-right: 4em;" tabindex="0"><img
+                                        src="https://cdn.iconscout.com/icon/premium/png-64-thumb/logout-2-110783.png"
+                                        alt="logout" class="login__img" (click)="onLogout()"></button></a>
+                        </li>
+                    </ul>
+                </ng-template>
+            </div>
+        </div>
+
+    </nav>
+    <div class="container-md mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="toggle"><i class="fas fa-2x fa-bars"></i></div>
+
+    <nav>
+
+        <ul class="nav--hightlighted nav__open">
+            <li class="nav__brand"><a class="rainbow rainbow_text_animated" [routerLink]="['/home']">
+                    <span>R</span>amón <span class="rainbow rainbow_text_animated">S</span>errano.</a></li>
+            <li class="nav__item"><a href="#about">About</a></li>
+            <li class="nav__item"><a href="#skill">Skills</a></li>
+            <li class="nav__item"><a href="#projects">Projects</a></li>
+            <li class="nav__item"><a href="#contact">Contact</a></li>
+
+
+
+        </ul>
+        <ng-container *ngif="! (user$ | async) === null; else logOutTemplate">
+            <ul class="nav nav--hightlighted nav__open">
+                <li>
+                    <button class="nav__item" tabindex="0"><img
+                            src="https://cdn.iconscout.com/icon/premium/png-64-thumb/sign-up-4621286-3841288.png"
+                            alt="sign-up" class="login__img" [routerLink]="['/sign-up']"></button>
+                </li>
+                <li>
+                    <button class="nav__item" tabindex="1" [routerLink]="['/sign-in']">
+                        <img src="https://cdn.iconscout.com/icon/free/png-64/login-1440156-1214657.png" alt="sign-in"
+                            class="login__img"></button>
+                </li>
+
+            </ul>
+        </ng-container>
+        <ng-template #logOutTemplate>
+            <ul class="nav nav--hightlighted nav__open">
+                <li><button class="nav__item" tabindex="0"><img
+                            src="https://cdn.iconscout.com/icon/premium/png-64-thumb/logout-2-110783.png" alt="logout"
+                            class="login__img" [routerLink]="['/home']" (click)="onLogout()"></button>
+                </li>
+
+            </ul>
+        </ng-template>
+
+        <div class="container-md mt-5">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </nav>  -->
+</header>

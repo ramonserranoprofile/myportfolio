@@ -448,7 +448,7 @@ header {
 .toggle {
     display: block;
     position: fixed;
-    top: 1.5em;
+    top: 2.5em;
     right: 2em;
     color: #eae5e5;
     cursor: pointer;

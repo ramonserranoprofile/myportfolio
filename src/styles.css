@@ -448,7 +448,7 @@ header {
 .toggle {
     display: block;
     position: fixed;
-    top: 2.5em;
+    top: 1.5em;
     right: 2em;
     color: #eae5e5;
     cursor: pointer;
@@ -463,7 +463,7 @@ header {
     flex-direction: row;
     font-size: 1.6rem;
     background: transparent;
-    padding-right: 90px;
+    padding-right: 70px;
     transition: 1s;
 }
 
@@ -532,12 +532,12 @@ header {
 }
 
 .nav--sticky {
-    background: #193275;
+    background: transparent;
     box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.6);
     top: 0;
     color: #193275;
-    padding-top: 30px;
-    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 0px;
     transition: 0.5s;
 }
 

@@ -9,7 +9,7 @@
             <div class="navbar" id="navbarNavAltMarkup">
 
                 <ng-container *ngIf="(user$ | async) === null; else logOutTemplate">
-                    <ul class="nav nav--hightlighted nav__open">
+                    <ul class="nav nav--hightlighted  nav--sticky" ng-reflect-ng-class="[object Object]">
                         <li class="nav__item"><a class="rainbow rainbow_text_animated" [routerLink]="['/home']">
                                 <span>R</span>amón <span>S</span>errano.</a></li>
 
@@ -30,7 +30,7 @@
                 </ng-container>
 
                 <ng-container class="">
-                    <ul class="nav nav--hightlighted nav__open">
+                    <ul class="nav nav--hightlighted nav--sticky" ng-reflect-ng-class="[object Object]">
                         <li class="nav__item"><a href="#about">About</a></li>
                         <li class="nav__item"><a href="#skills">Skills</a></li>
                         <li class="nav__item"><a href="#projects">Projects</a></li>
@@ -38,10 +38,10 @@
                     </ul>
                 </ng-container>
                 <ng-template #logOutTemplate>
-                    <ul class="nav nav--hightlighted nav__open">
-                        <li class="nav-item">
-                            <a [routerLink]="['/home']" (click)="onLogout()" class="nav-link">Logout<button
-                                    class="nav__item" style="padding-right: 4em;" tabindex="0"><img
+                    <ul class="nav nav--hightlighted nav--sticky" ng-reflect-ng-class="[object Object]">
+                        <li class="nav__item">
+                            <a class="nav__link" aria-current="page" [routerLink]="['/home']"
+                                (click)="onLogout()">Logout<button class="button" tabindex="2"><img
                                         src="https://cdn.iconscout.com/icon/premium/png-64-thumb/logout-2-110783.png"
                                         alt="logout" class="login__img" (click)="onLogout()"></button></a>
                         </li>

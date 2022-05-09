@@ -400,7 +400,7 @@ header {
         padding: 8px;
         display: flex;
         transform: class="fas fa-2x fa-times";
-        background-color: #193275;
+        background-color: transparent;
     }
 
 

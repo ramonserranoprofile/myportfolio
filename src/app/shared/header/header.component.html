@@ -1,42 +1,44 @@
 <header>
     <div class="toggle"><i class="fas fa-2x fa-bars" data-bs-toggle="collapse"></i></div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid ">
-            <a class="rainbow rainbow_text_animated" [routerLink]="['/home']">
-                <span>R</span>amón <span class="rainbow rainbow_text_animated">S</span>errano.</a>
+    <nav class="nav  navbar-dark bg-primary mr-auto" style="--bs-bg-opacity: .2;">
+        <div class="container-fluid">
+            <!-- <a class=" rainbow rainbow_text_animated" [routerLink]="['/home']">
+                <span>R</span>amón <span>S</span>errano.</a> -->
 
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button> -->
-            <div class="navbar navbar-expand-lg" id="navbarNavAltMarkup">
+
+            <div class="navbar" id="navbarNavAltMarkup">
 
                 <ng-container *ngIf="(user$ | async) === null; else logOutTemplate">
-                    <ul class="nav nav--hightlighted nav__open navbar-nav  mr-auto mt-2 mt-lg-0">
+                    <ul class="nav nav--hightlighted nav__open">
+                        <li class="nav__item"><a class="rainbow rainbow_text_animated" [routerLink]="['/home']">
+                                <span>R</span>amón <span>S</span>errano.</a></li>
+
                         <li class="nav__item">
-                            <a class="nav-link" aria-current="page" [routerLink]="['/sign-in']">Sign in<button
-                                    class="nav__item" tabindex="1" [routerLink]="['/sign-in']">
+                            <a class="nav__link" aria-current="page" [routerLink]="['/sign-in']">Sign in<button
+                                    class="button" tabindex="1">
                                     <img src="https://cdn.iconscout.com/icon/free/png-64/login-1440156-1214657.png"
                                         alt="sign-in" class="login__img"></button></a>
+                        </li>
                         <li class="nav__item">
-                            <a class="nav-link" [routerLink]="['/sign-up']">Sign up<button class="nav__item"
-                                    tabindex="0"><img
+                            <a class="nav__link" aria-current="page" [routerLink]="['/sign-up']">Sign up<button
+                                    class="button" tabindex="0"><img
                                         src="https://cdn.iconscout.com/icon/premium/png-64-thumb/sign-up-4621286-3841288.png"
-                                        alt="sign-up" class="login__img" [routerLink]="['/sign-up']"></button></a>
+                                        alt="sign-up" class="login__img"></button></a>
 
                         </li>
                     </ul>
                 </ng-container>
-                <ng-container class=" nav-fill ">
-                    <ul class="nav nav--hightlighted nav__open   mt-2 mt-lg-0 ">
+
+                <ng-container class="">
+                    <ul class="nav nav--hightlighted nav__open">
                         <li class="nav__item"><a href="#about">About</a></li>
-                        <li class="nav__item"><a href="#skill">Skills</a></li>
+                        <li class="nav__item"><a href="#skills">Skills</a></li>
                         <li class="nav__item"><a href="#projects">Projects</a></li>
                         <li class="nav__item"><a href="#contact">Contact</a></li>
                     </ul>
                 </ng-container>
                 <ng-template #logOutTemplate>
-                    <ul class="nav nav--hightlighted nav__open navbar-nav  mt-2 mt-lg-0">
+                    <ul class="nav nav--hightlighted nav__open">
                         <li class="nav-item">
                             <a [routerLink]="['/home']" (click)="onLogout()" class="nav-link">Logout<button
                                     class="nav__item" style="padding-right: 4em;" tabindex="0"><img

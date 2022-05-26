@@ -457,9 +457,9 @@ header {
 
 .nav {
     justify-content: flex-end;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: row;
     font-size: 1.6rem;
     background: transparent;

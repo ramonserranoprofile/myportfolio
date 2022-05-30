@@ -78,7 +78,7 @@
         },
         "serve": {
           "options": {
-            "port": 45850
+            "port": 4200
           },
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {

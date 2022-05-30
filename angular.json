@@ -20,12 +20,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "allowedCommonJsDependencies": [
-              "rxjs-compat",
-              "socket.io-client",
-              "socket.io-parser",
-              "debug"
-            ],
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -83,10 +77,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "src:build:production"
+              "browserTarget": "myportfolio:build:production"
             },
             "development": {
-              "browserTarget": "src:build:development"
+              "browserTarget": "myportfolio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -94,7 +88,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "src:build"
+            "browserTarget": "myportfolio:build"
           }
         },
         "test": {

@@ -86,7 +86,7 @@
               "browserTarget": "src:build:production"
             },
             "development": {
-              "browserTarget": "myportfolio:build:development"
+              "browserTarget": "src:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -1,12 +1,25 @@
-$(document).ready(main);
-var contador = 1;
-function main() {
-    $('.toggle').click(function () {
-        $('nav').toggle();
-
+jQuery('document').ready(function($){    
+    var toggle = $('.toggle'),    
+    menubar = $('.nav');    
+    toggle.onClick(function() {
+       if (menubar.hasClass('nav__open') ) {
+           menubar.removeClass('nav__open');
+       } else {
+           menubar.addClass('nav__open');
+       }
+           
+        
     });
+        
+});
+// if (menu.hasclass('nav__open')) {
 
-};
+        //     menu.addclass('nav')
+        // } else {
+        //     menu.addclass('nav__open')
+        // }
+
+        
 // // Get the canvas node and the drawing context
 // const canvas = document.getElementById('canvasMatrix');
 // const ctx = canvas.getContext('2d');

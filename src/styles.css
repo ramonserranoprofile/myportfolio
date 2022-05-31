@@ -665,12 +665,12 @@ header {
     }
 
     .nav__open.show {
-        display: flex;
+        display: none;
     }
 
     .nav__open {
         padding: 8px;
-        display: flex;
+        display: block;
         transform: scale(1);
         background-color: #24303c;
     }

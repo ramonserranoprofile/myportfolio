@@ -13,112 +13,6 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-.spotify {
-    width: 150px;
-    height: 80px;
-    border-radius: 12px;
-}
-
-.w3-container p {
-    text-align: justify;
-}
-
-.auth-form {
-    background-color: rgba(245, 245, 245, 0.9);
-    padding: 1rem;
-    border-radius: 10px;
-    width: 400px;
-    background: #24303c;
-    /* padding: 30px; */
-    margin: auto;
-    margin-top: 50px;
-    /* border-radius: 4px; */
-    /* font-family: 'calibri'; */
-    color: grey;
-    box-shadow: 7px 13px 37px #000;
-    position: relative;
-    top: 10%;
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    /* width: 400px; */
-    /* background: white; */
-    /* border-radius: 10px; */
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
-
-}
-
-.mb-3 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-
-.mt-5 {
-    margin-top: 5rem;
-}
-
-.text-center {
-    text-align: center;
-    padding: 20px 0;
-    border-bottom: 1px solid silver;
-}
-
-.form-label {
-    position: relative;
-    top: 50%;
-    left: 5px;
-    color: #adadad;
-    transform: translateY(-50%);
-    font-size: 16px;
-    pointer-events: none;
-    transition: .5s;
-}
-
-.pass {
-    margin: -5px 0 20px 5px;
-    color: #a6a6a6;
-    cursor: pointer;
-}
-
-.pass:hover {
-    text-decoration: underline;
-}
-
-.text-black {
-    margin: 30px 0;
-    text-align: center;
-    font-size: 16px;
-    color: white;
-    cursor: pointer;
-}
-
-.text-black small {
-    color: #2691d9;
-    text-decoration: none;
-}
-
-.text-black small:hover {
-    text-decoration: underline;
-}
-
-.auth-form p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-}
-
-.form-control {
-    width: 100%;
-    padding: 0 5px;
-    height: 40px;
-    font-size: 16px;
-    border: none;
-    background: white;
-    outline: none;
-}
-
 .skills-container {
     margin-top: 1em;
     display: -webkit-box;
@@ -552,7 +446,7 @@ header {
 }
 
 .toggle {
-    display: none;
+    display: block;
     position: fixed;
     top: 1.5em;
     right: 2em;
@@ -569,9 +463,8 @@ header {
     flex-direction: row;
     font-size: 1.6rem;
     background: transparent;
-    padding-right: 0px;
+    padding-right: 70px;
     transition: 1s;
-    vertical-align: bottom;
 }
 
 .nav__brand {
@@ -579,7 +472,6 @@ header {
     font-size: 2rem;
     font-weight: 300;
     transform: translateX(-100rem);
-
 }
 
 .nav__brand:nth-child(1) {
@@ -588,7 +480,7 @@ header {
 }
 
 .nav__item {
-    transform: translateY(50rem);
+    transform: translateX(100rem);
     padding: 5px 10px;
     cursor: pointer;
 }
@@ -620,14 +512,14 @@ header {
 
 .nav--hightlighted {
     content: "";
-    /* padding-top: 30px; */
-    /* padding-left: 10px; */
+    padding-top: 30px;
+    padding-left: 10px;
 }
 
 .nav--hightlighted .nav__item::after {
     content: "";
     overflow: hidden;
-    display: flex;
+    display: block;
     width: 0;
     height: 2px;
     background: #1868fd;
@@ -649,39 +541,35 @@ header {
     transition: 0.5s;
 }
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
     .toggle {
         display: block;
+        transform: rotate(0deg);
+
     }
 
     .nav {
-        display: none;
+        display: flex;
         padding-top: 0;
-        /* padding-left: 2; */
+        padding-left: 2;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         text-align: center;
     }
 
-    .nav__open.show {
-        display: flex;
-    }
-
     .nav__open {
         padding: 8px;
         display: flex;
-        transform: scale(1);
-        background-color: #24303c;
+        transform: class="fas fa-2x fa-times";
+        background-color: transparent;
     }
 
 
 }
 
-
-
 .login__img {
-    height: auto;
+    height: 40px;
     max-width: 40px;
 
 }
@@ -851,7 +739,7 @@ header {
 .rainbow {
     text-align: center;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .rainbow_text_animated {
@@ -863,8 +751,6 @@ header {
     animation: rainbow_animation 6s ease-in-out infinite;
     background-size: 400% 100%;
 }
-
-
 
 @-webkit-keyframes rainbow_animation {
 
@@ -1131,7 +1017,7 @@ header {
 .container {
     width: 100%;
     margin-right: auto;
-    margin-left: unset;
+    margin-left: auto;
 }
 
 @media (min-width: 544px) {
@@ -1286,19 +1172,19 @@ header {
 
 @media (min-width: 544px) {
     .container {
-        max-width: 100%;
+        max-width: 540px;
     }
 }
 
 @media (min-width: 768px) {
     .container {
-        max-width: 100%;
+        max-width: 720px;
     }
 }
 
 @media (min-width: 992px) {
     .container {
-        max-width: 100%;
+        max-width: 960px;
     }
 }
 
@@ -1325,12 +1211,12 @@ header {
 }
 
 .contact {
-    justify-content: space-evenly;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
-    flex-direction: row;
-    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
     background-color: #363636;
     color: #fff;
 }

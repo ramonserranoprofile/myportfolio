@@ -1,0 +1,4 @@
+logica.Persona=javax.persistence.Entity
+logica.Persona_=javax.annotation.Generated,javax.persistence.metamodel.StaticMetamodel
+servlets.SvEliminar=javax.servlet.annotation.WebServlet
+servlets.SvPersona=javax.servlet.annotation.WebServlet

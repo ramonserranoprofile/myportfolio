@@ -71,8 +71,10 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "options": {
-            "port": 4200
+            "options": {
+            "browserTarget": "<application-name>:build",
+            "proxyConfig": "src/myportfolio.conf.json",
+            "port": 4200           
           },
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {

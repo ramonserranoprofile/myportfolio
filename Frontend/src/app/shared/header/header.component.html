@@ -1,53 +1,39 @@
 <header>
-    <div class="toggle"><i class="fas fa-2x fa-bars" data-bs-toggle="collapse"></i></div>
-    <nav class="menu">
-        <div class="container container-fluid">
+    <nav>
+        <!-- <ng-container *ngIf="(user$ | async) === null; else logOutTemplate"></ng-container> -->
+        <ul class="nav nav--hightlighted nav--sticky">
+            <li class="nav__brand"><a class="" href="./"><button tabindex="0"><img
+                            src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1666041412/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2817%29.png"
+                            width="250"></button></a><a class="rainbow_text_animated" [routerLink]="['/home']">
+                    <span>Ramón Serrano</span></a></li>
+            <li class="nav__item">
+                <a class="nav__link" aria-current="page" href="form/signin.html">Sign
+                    in<button class="" tabindex="1">
+                        <img src="https://cdn.iconscout.com/icon/free/png-64/login-1440156-1214657.png" alt="sign-in"
+                            class="login__img"></button></a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" aria-current="page" href="form/signup.html">Sign up<button class=""
+                        tabindex="0"><img
+                            src="https://cdn.iconscout.com/icon/premium/png-64-thumb/sign-up-4621286-3841288.png"
+                            alt="sign-up" class="login__img"></button></a>
+            </li>
+            <!-- <ng-container class="container"></ng-container> -->
+            <li class="nav__item"><a href="#about">About</a></li>
+            <li class="nav__item"><a href="#skills">Skills</a></li>
+            <li class="nav__item"><a href="#projects">Projects</a></li>
+            <li class="nav__item"><a href="#contact">Contact</a></li>
+            <li class="nav__item">
+                <a class="nav__link" aria-current="page" href="./">Logout<button class=""
+                        tabindex="2"><img src="https://cdn.iconscout.com/icon/premium/png-64-thumb/logout-2-110783.png"
+                            alt="logout" class="login__img"></button></a>
+            </li>
 
-            <!-- <div class="navbar" id="navbarNavAltMarkup"> -->
-
-            <ng-container *ngIf="(user$ | async) === null; else logOutTemplate">
-                <ul class="nav nav--hightlighted  nav--sticky nav__open" ng-reflect-ng-class="[object Object]">
-                    <li class="nav__brand"><a class="rainbow rainbow_text_animated" [routerLink]="['/home']">
-                            <span>R</span>amón <span>S</span>errano.</a></li>
-
-                    <li class="nav__item">
-                        <a class="nav__link" aria-current="page" [routerLink]="['/sign-in']">Sign in<button
-                                class="button" tabindex="1">
-                                <img src="https://cdn.iconscout.com/icon/free/png-64/login-1440156-1214657.png"
-                                    alt="sign-in" class="login__img"></button></a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" aria-current="page" [routerLink]="['/sign-up']">Sign up<button
-                                class="button" tabindex="0"><img
-                                    src="https://cdn.iconscout.com/icon/premium/png-64-thumb/sign-up-4621286-3841288.png"
-                                    alt="sign-up" class="login__img"></button></a>
-
-                    </li>
-                </ul>
-            </ng-container>
-
-            <ng-container class="">
-                <ul class="nav nav--hightlighted nav--sticky nav__open" ng-reflect-ng-class="[object Object]">
-                    <li class="nav__item"><a href="#about">About</a></li>
-                    <li class="nav__item"><a href="#skills">Skills</a></li>
-                    <li class="nav__item"><a href="#projects">Projects</a></li>
-                    <li class="nav__item"><a href="#contact">Contact</a></li>
-                </ul>
-            </ng-container>
-            <ng-template #logOutTemplate>
-                <ul class="nav nav--hightlighted nav--sticky nav__open" ng-reflect-ng-class="[object Object]">
-                    <li class="nav__item">
-                        <a class="nav__link" aria-current="page" [routerLink]="['/home']"
-                            (click)="onLogout()">Logout<button class="button" tabindex="2"><img
-                                    src="https://cdn.iconscout.com/icon/premium/png-64-thumb/logout-2-110783.png"
-                                    alt="logout" class="login__img" (click)="onLogout()"></button></a>
-                    </li>
-                </ul>
-            </ng-template>
-            <!-- </div> -->
-        </div>
-
+            <!-- <ng-template #logOutTemplate></ng-template> -->
+        </ul>
+        <div class="toggle"><i class="fas fa-2x fa-bars" data-bs-toggle="collapse"></i></div>
     </nav>
+    
     <div class="container-md mt-5">
         <div class="row">
             <div class="col-md-6 offset-md-3">
@@ -55,5 +41,4 @@
             </div>
         </div>
     </div>
-
 </header>

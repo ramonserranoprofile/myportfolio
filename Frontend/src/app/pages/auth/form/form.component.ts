@@ -3,8 +3,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { ACTIONS } from 'src/app/shared/constants/constant';
 import { AuthService } from './services/auth.services';
-import { UserCredentials, ApiError, User } from "@supabase/gotrue-js";
 import { ToastrService } from 'ngx-toastr';
+import { ApiError, User, UserCredentials } from '@supabase/gotrue-js';
 export interface OptionsForm {
   id: string;
   label: string;
@@ -43,7 +43,7 @@ export class FormComponent implements OnInit {
     }
 
     try {
-      const result = await actionToCall as UserResponse;
+      const result = actionToCall as unknown as UserResponse;
       if (result.email) {
         this.redirectUser();
 

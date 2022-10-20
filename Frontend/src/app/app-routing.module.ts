@@ -16,6 +16,9 @@ const routes: Routes = [
     canActivate: [AuthGuard]
   },
   { path: '**', redirectTo: '/home', pathMatch: 'full' },
+  {
+    path: 'profile', redirectTo: 'profile.html', pathMatch: 'full'
+  },
 ];
 
 @NgModule({

@@ -1,0 +1,351 @@
+23-Oct-2022 18:51:44.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.27
+23-Oct-2022 18:51:44.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 3 2022 14:18:31 UTC
+23-Oct-2022 18:51:44.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.27.0
+23-Oct-2022 18:51:44.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+23-Oct-2022 18:51:44.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+23-Oct-2022 18:51:44.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+23-Oct-2022 18:51:44.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         E:\Program Files\Java\jdk-18.0.2.1
+23-Oct-2022 18:51:44.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2.1+1-1
+23-Oct-2022 18:51:44.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+23-Oct-2022 18:51:44.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 18:51:44.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 18:51:44.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Oct-2022 18:51:44.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+23-Oct-2022 18:51:44.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+23-Oct-2022 18:51:44.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Oct-2022 18:51:44.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Oct-2022 18:51:44.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\conf\logging.properties
+23-Oct-2022 18:51:44.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2022 18:51:44.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-EKSQ0KS
+23-Oct-2022 18:51:44.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2022 18:51:44.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2022 18:51:44.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+23-Oct-2022 18:51:44.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 18:51:44.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 18:51:44.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\temp
+23-Oct-2022 18:51:44.933 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+23-Oct-2022 18:51:44.933 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+23-Oct-2022 18:51:44.966 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+23-Oct-2022 18:51:47.306 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+23-Oct-2022 18:51:47.493 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3771] milliseconds
+23-Oct-2022 18:51:47.939 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+23-Oct-2022 18:51:47.943 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+23-Oct-2022 18:51:48.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] de la aplicación web
+23-Oct-2022 18:51:50.488 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [309] milliseconds.
+23-Oct-2022 18:51:50.735 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] has finished in [2.700] ms
+23-Oct-2022 18:51:50.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] de la aplicación web
+23-Oct-2022 18:51:54.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] has finished in [3.268] ms
+23-Oct-2022 18:51:54.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] de la aplicación web
+23-Oct-2022 18:51:54.240 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] has finished in [230] ms
+23-Oct-2022 18:51:54.242 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] de la aplicación web
+23-Oct-2022 18:51:54.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] has finished in [246] ms
+23-Oct-2022 18:51:54.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] de la aplicación web
+23-Oct-2022 18:51:54.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] has finished in [138] ms
+23-Oct-2022 18:51:54.641 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 18:51:54.869 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7369] milliseconds
+23-Oct-2022 19:11:20.790 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+23-Oct-2022 19:11:20.792 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:11:20.823 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+23-Oct-2022 19:11:20.949 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:11:20.964 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:11:27.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.27
+23-Oct-2022 19:11:27.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 3 2022 14:18:31 UTC
+23-Oct-2022 19:11:27.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.27.0
+23-Oct-2022 19:11:27.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+23-Oct-2022 19:11:27.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+23-Oct-2022 19:11:27.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+23-Oct-2022 19:11:27.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         E:\Program Files\Java\jdk-18.0.2.1
+23-Oct-2022 19:11:27.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2.1+1-1
+23-Oct-2022 19:11:27.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+23-Oct-2022 19:11:27.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:11:27.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:11:27.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Oct-2022 19:11:27.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+23-Oct-2022 19:11:27.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+23-Oct-2022 19:11:27.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Oct-2022 19:11:27.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Oct-2022 19:11:27.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\conf\logging.properties
+23-Oct-2022 19:11:27.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2022 19:11:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-EKSQ0KS
+23-Oct-2022 19:11:27.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2022 19:11:27.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2022 19:11:27.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+23-Oct-2022 19:11:27.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:11:27.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:11:27.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\temp
+23-Oct-2022 19:11:27.608 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+23-Oct-2022 19:11:27.609 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+23-Oct-2022 19:11:27.623 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+23-Oct-2022 19:11:28.686 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+23-Oct-2022 19:11:28.799 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2178] milliseconds
+23-Oct-2022 19:11:28.983 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+23-Oct-2022 19:11:28.985 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+23-Oct-2022 19:11:29.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] de la aplicación web
+23-Oct-2022 19:11:31.048 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [242] milliseconds.
+23-Oct-2022 19:11:31.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] has finished in [2.167] ms
+23-Oct-2022 19:11:31.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] de la aplicación web
+23-Oct-2022 19:11:34.711 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] has finished in [3.523] ms
+23-Oct-2022 19:11:34.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] de la aplicación web
+23-Oct-2022 19:11:35.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] has finished in [295] ms
+23-Oct-2022 19:11:35.011 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] de la aplicación web
+23-Oct-2022 19:11:35.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] has finished in [249] ms
+23-Oct-2022 19:11:35.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] de la aplicación web
+23-Oct-2022 19:11:35.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] has finished in [134] ms
+23-Oct-2022 19:11:35.404 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:11:35.626 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6821] milliseconds
+23-Oct-2022 19:12:33.401 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+23-Oct-2022 19:12:33.402 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:12:33.430 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+23-Oct-2022 19:12:33.497 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:12:33.511 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:12:43.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.27
+23-Oct-2022 19:12:43.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 3 2022 14:18:31 UTC
+23-Oct-2022 19:12:43.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.27.0
+23-Oct-2022 19:12:43.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+23-Oct-2022 19:12:43.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+23-Oct-2022 19:12:43.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+23-Oct-2022 19:12:43.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         E:\Program Files\Java\jdk-18.0.2.1
+23-Oct-2022 19:12:43.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2.1+1-1
+23-Oct-2022 19:12:43.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+23-Oct-2022 19:12:43.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:12:43.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:12:43.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Oct-2022 19:12:43.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+23-Oct-2022 19:12:43.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+23-Oct-2022 19:12:43.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Oct-2022 19:12:43.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Oct-2022 19:12:43.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\conf\logging.properties
+23-Oct-2022 19:12:43.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2022 19:12:43.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-EKSQ0KS
+23-Oct-2022 19:12:43.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2022 19:12:43.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2022 19:12:43.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+23-Oct-2022 19:12:43.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:12:43.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:12:43.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\temp
+23-Oct-2022 19:12:43.612 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+23-Oct-2022 19:12:43.612 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+23-Oct-2022 19:12:43.628 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+23-Oct-2022 19:12:44.682 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+23-Oct-2022 19:12:44.756 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2142] milliseconds
+23-Oct-2022 19:12:44.982 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+23-Oct-2022 19:12:44.984 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+23-Oct-2022 19:12:45.019 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] de la aplicación web
+23-Oct-2022 19:12:47.098 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [267] milliseconds.
+23-Oct-2022 19:12:47.241 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] has finished in [2.221] ms
+23-Oct-2022 19:12:47.242 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] de la aplicación web
+23-Oct-2022 19:12:50.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] has finished in [2.870] ms
+23-Oct-2022 19:12:50.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] de la aplicación web
+23-Oct-2022 19:12:50.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] has finished in [215] ms
+23-Oct-2022 19:12:50.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] de la aplicación web
+23-Oct-2022 19:12:50.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] has finished in [188] ms
+23-Oct-2022 19:12:50.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] de la aplicación web
+23-Oct-2022 19:12:50.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] has finished in [157] ms
+23-Oct-2022 19:12:50.692 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:12:50.884 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6122] milliseconds
+23-Oct-2022 19:13:31.314 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+23-Oct-2022 19:13:31.315 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:13:31.340 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+23-Oct-2022 19:13:31.424 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:13:31.442 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:13:36.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.27
+23-Oct-2022 19:13:36.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 3 2022 14:18:31 UTC
+23-Oct-2022 19:13:36.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.27.0
+23-Oct-2022 19:13:36.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+23-Oct-2022 19:13:36.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+23-Oct-2022 19:13:36.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+23-Oct-2022 19:13:36.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         E:\Program Files\Java\jdk-18.0.2.1
+23-Oct-2022 19:13:36.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2.1+1-1
+23-Oct-2022 19:13:36.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+23-Oct-2022 19:13:36.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:13:36.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:13:36.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Oct-2022 19:13:36.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+23-Oct-2022 19:13:36.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+23-Oct-2022 19:13:36.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Oct-2022 19:13:36.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Oct-2022 19:13:36.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\conf\logging.properties
+23-Oct-2022 19:13:36.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2022 19:13:36.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-EKSQ0KS
+23-Oct-2022 19:13:36.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2022 19:13:36.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2022 19:13:36.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+23-Oct-2022 19:13:36.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:13:36.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:13:36.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\temp
+23-Oct-2022 19:13:36.869 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+23-Oct-2022 19:13:36.869 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+23-Oct-2022 19:13:36.882 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+23-Oct-2022 19:13:38.344 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+23-Oct-2022 19:13:38.508 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2694] milliseconds
+23-Oct-2022 19:13:39.021 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+23-Oct-2022 19:13:39.023 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+23-Oct-2022 19:13:39.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] de la aplicación web
+23-Oct-2022 19:13:41.537 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [252] milliseconds.
+23-Oct-2022 19:13:41.682 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] has finished in [2.600] ms
+23-Oct-2022 19:13:41.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] de la aplicación web
+23-Oct-2022 19:13:45.359 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] has finished in [3.675] ms
+23-Oct-2022 19:13:45.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] de la aplicación web
+23-Oct-2022 19:13:45.842 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] has finished in [481] ms
+23-Oct-2022 19:13:45.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] de la aplicación web
+23-Oct-2022 19:13:46.329 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] has finished in [485] ms
+23-Oct-2022 19:13:46.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] de la aplicación web
+23-Oct-2022 19:13:46.545 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] has finished in [214] ms
+23-Oct-2022 19:13:46.563 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:13:46.926 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8409] milliseconds
+23-Oct-2022 19:14:09.000 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+23-Oct-2022 19:14:09.001 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:14:09.027 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+23-Oct-2022 19:14:09.117 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:14:09.134 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Oct-2022 19:19:40.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.27
+23-Oct-2022 19:19:40.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 3 2022 14:18:31 UTC
+23-Oct-2022 19:19:40.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.27.0
+23-Oct-2022 19:19:40.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+23-Oct-2022 19:19:40.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+23-Oct-2022 19:19:40.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+23-Oct-2022 19:19:40.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         E:\Program Files\Java\jdk-18.0.2.1
+23-Oct-2022 19:19:40.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2.1+1-1
+23-Oct-2022 19:19:40.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+23-Oct-2022 19:19:40.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:19:40.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\conf\logging.properties
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-EKSQ0KS
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:19:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\temp
+23-Oct-2022 19:19:40.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+23-Oct-2022 19:19:40.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+23-Oct-2022 19:19:40.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+23-Oct-2022 19:19:41.789 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-127.0.0.1-8081"]
+
+23-Oct-2022 19:19:41.870 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1877] milliseconds
+23-Oct-2022 19:19:42.063 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+23-Oct-2022 19:19:42.064 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+23-Oct-2022 19:19:42.085 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] de la aplicación web
+23-Oct-2022 19:19:43.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] has finished in [1.078] ms
+23-Oct-2022 19:19:43.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] de la aplicación web
+23-Oct-2022 19:19:44.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] has finished in [1.633] ms
+23-Oct-2022 19:19:44.803 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] de la aplicación web
+23-Oct-2022 19:19:45.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] has finished in [196] ms
+23-Oct-2022 19:19:45.001 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] de la aplicación web
+23-Oct-2022 19:19:45.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] has finished in [196] ms
+23-Oct-2022 19:19:45.199 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] de la aplicación web
+23-Oct-2022 19:19:45.291 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] has finished in [93] ms
+23-Oct-2022 19:19:45.300 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+23-Oct-2022 19:19:45.424 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3550] milliseconds
+23-Oct-2022 19:20:49.890 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+23-Oct-2022 19:20:49.892 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+23-Oct-2022 19:20:49.900 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+23-Oct-2022 19:20:49.970 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-127.0.0.1-8081"]
+23-Oct-2022 19:20:49.986 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-127.0.0.1-8081"]
+23-Oct-2022 19:43:56.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.27
+23-Oct-2022 19:43:56.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 3 2022 14:18:31 UTC
+23-Oct-2022 19:43:56.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.27.0
+23-Oct-2022 19:43:56.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+23-Oct-2022 19:43:56.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+23-Oct-2022 19:43:56.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+23-Oct-2022 19:43:56.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         E:\Program Files\Java\jdk-18.0.2.1
+23-Oct-2022 19:43:56.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2.1+1-1
+23-Oct-2022 19:43:56.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+23-Oct-2022 19:43:56.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:43:56.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:43:57.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Oct-2022 19:43:57.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+23-Oct-2022 19:43:57.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+23-Oct-2022 19:43:57.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Oct-2022 19:43:57.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Oct-2022 19:43:57.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\conf\logging.properties
+23-Oct-2022 19:43:57.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2022 19:43:57.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-EKSQ0KS
+23-Oct-2022 19:43:57.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2022 19:43:57.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2022 19:43:57.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+23-Oct-2022 19:43:57.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:43:57.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 19:43:57.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\temp
+23-Oct-2022 19:43:57.476 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+23-Oct-2022 19:43:57.476 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+23-Oct-2022 19:43:57.616 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+23-Oct-2022 19:44:01.683 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-127.0.0.1-8081"]
+
+23-Oct-2022 19:44:02.009 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [7152] milliseconds
+23-Oct-2022 19:44:02.663 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+23-Oct-2022 19:44:02.666 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+23-Oct-2022 19:44:02.850 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] de la aplicación web
+23-Oct-2022 19:44:07.492 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [698] milliseconds.
+23-Oct-2022 19:44:07.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] has finished in [5.147] ms
+23-Oct-2022 19:44:08.001 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] de la aplicación web
+23-Oct-2022 19:44:12.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] has finished in [4.887] ms
+23-Oct-2022 19:44:12.889 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] de la aplicación web
+23-Oct-2022 19:44:13.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] has finished in [373] ms
+23-Oct-2022 19:44:13.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] de la aplicación web
+23-Oct-2022 19:44:13.621 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] has finished in [359] ms
+23-Oct-2022 19:44:13.622 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] de la aplicación web
+23-Oct-2022 19:44:13.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] has finished in [160] ms
+23-Oct-2022 19:44:13.797 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+23-Oct-2022 19:44:14.210 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12190] milliseconds
+23-Oct-2022 22:04:42.297 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+23-Oct-2022 22:04:42.299 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+23-Oct-2022 22:04:42.307 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+23-Oct-2022 22:04:42.414 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-127.0.0.1-8081"]
+23-Oct-2022 22:04:42.449 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-127.0.0.1-8081"]
+23-Oct-2022 22:26:03.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.27
+23-Oct-2022 22:26:03.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 3 2022 14:18:31 UTC
+23-Oct-2022 22:26:03.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.27.0
+23-Oct-2022 22:26:03.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+23-Oct-2022 22:26:03.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+23-Oct-2022 22:26:03.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+23-Oct-2022 22:26:03.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         E:\Program Files\Java\jdk-18.0.2.1
+23-Oct-2022 22:26:03.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18.0.2.1+1-1
+23-Oct-2022 22:26:03.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+23-Oct-2022 22:26:03.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 22:26:03.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 22:26:03.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Oct-2022 22:26:03.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+23-Oct-2022 22:26:03.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+23-Oct-2022 22:26:03.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Oct-2022 22:26:03.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Oct-2022 22:26:03.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\conf\logging.properties
+23-Oct-2022 22:26:03.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2022 22:26:03.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-EKSQ0KS
+23-Oct-2022 22:26:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2022 22:26:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2022 22:26:03.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+23-Oct-2022 22:26:03.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 22:26:03.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27
+23-Oct-2022 22:26:03.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\temp
+23-Oct-2022 22:26:03.311 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+23-Oct-2022 22:26:03.311 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+23-Oct-2022 22:26:03.335 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+23-Oct-2022 22:26:04.507 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-127.0.0.1-8081"]
+
+23-Oct-2022 22:26:04.593 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2202] milliseconds
+23-Oct-2022 22:26:04.843 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+23-Oct-2022 22:26:04.844 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+23-Oct-2022 22:26:04.895 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] de la aplicación web
+23-Oct-2022 22:26:06.011 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [123] milliseconds.
+23-Oct-2022 22:26:06.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\docs] has finished in [1.180] ms
+23-Oct-2022 22:26:06.077 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] de la aplicación web
+23-Oct-2022 22:26:08.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\examples] has finished in [2.511] ms
+23-Oct-2022 22:26:08.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] de la aplicación web
+23-Oct-2022 22:26:08.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\host-manager] has finished in [197] ms
+23-Oct-2022 22:26:08.788 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] de la aplicación web
+23-Oct-2022 22:26:09.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\manager] has finished in [239] ms
+23-Oct-2022 22:26:09.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] de la aplicación web
+23-Oct-2022 22:26:09.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ramon\OneDrive\Documentos\Repositorio Local\myfistrepo\myportfolio\Backend\apache-tomcat-10.0.27\webapps\ROOT] has finished in [164] ms
+23-Oct-2022 22:26:09.203 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+23-Oct-2022 22:26:09.371 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4773] milliseconds

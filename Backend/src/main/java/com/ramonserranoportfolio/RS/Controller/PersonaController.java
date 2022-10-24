@@ -2,7 +2,7 @@
 package com.ramonserranoportfolio.RS.Controller;
 
 import com.ramonserranoportfolio.RS.Entity.Persona;
-import com.ramonserranoportfolio.RS.Interface.IPersonaServive;
+import com.ramonserranoportfolio.RS.Interface.IPersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -21,23 +21,23 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping({"/api"})
 
 public class PersonaController {
-    @Autowired IPersonaServive ipersonaServive;
+    @Autowired IPersonaService ipersonaService;
     
     @GetMapping("personas/traer")
     public List<Persona> getPersona () {
-        return ipersonaServive.getPersona ( );
+        return ipersonaService.getPersona ( );
     }
     
     @PostMapping("personas/crear")
     public String createPersona(@RequestBody Persona persona){
-        ipersonaServive.savePersona(persona);
+        ipersonaService.savePersona(persona);
         return "Persona Creada Correctamente";
         
     }
     
     @DeleteMapping("/personas/borrar/{id}")
     public String deletePersona(@PathVariable Long id){
-        ipersonaServive.deletePersona(id);
+        ipersonaService.deletePersona(id);
         return "Persona Eliminada Correctamente";
      }
     
@@ -48,13 +48,13 @@ public class PersonaController {
                                                          @RequestParam("img") String nuevoImg){
    
    
-                    Persona persona = ipersonaServive.findPersona(id);
+                    Persona persona = ipersonaService.findPersona(id);
                     
                     persona.setNombre(nuevoNombre);
                     persona.setApellido(nuevoApellido);
                     persona.setImg(nuevoImg);
                     
-                    ipersonaServive.savePersona(persona);
+                    ipersonaService.savePersona(persona);
                     return persona;
     }
            

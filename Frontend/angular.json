@@ -73,7 +73,7 @@
         "serve": {
             "options": {
             "browserTarget": "<application-name>:build",
-            "proxyConfig": "src/myportfolio.conf.json",
+            "proxyConfig": "myportfolio.conf.json",
             "port": 4200           
           },
           "builder": "@angular-devkit/build-angular:dev-server",

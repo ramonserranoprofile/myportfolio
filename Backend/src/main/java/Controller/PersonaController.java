@@ -13,9 +13,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.web.bind.annotation.RequestMapping;
+@CrossOrigin(origins = "http://localhost:8081")
 @RestController
-
+@RequestMapping("/api")
 
 public class PersonaController {
     @Autowired IPersonaService ipersonaService;
@@ -54,6 +55,6 @@ public class PersonaController {
                     ipersonaService.savePersona(persona);
                     return persona;
     }
-           
-   
+
+
 }

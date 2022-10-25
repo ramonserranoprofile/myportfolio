@@ -1,7 +1,6 @@
+package Interface;
 
-package com.ramonserranoportfolio.RS.Interface;
-
-import com.ramonserranoportfolio.RS.Entity.Persona;
+import Entity.Persona;
 import java.util.List;
 
 

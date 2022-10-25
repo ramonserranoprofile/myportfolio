@@ -1,9 +1,8 @@
+package Service;
 
-package com.ramonserranoportfolio.RS.Service;
-
-import com.ramonserranoportfolio.RS.Entity.Persona;
-import com.ramonserranoportfolio.RS.Interface.IPersonaService;
-import com.ramonserranoportfolio.RS.Repository.IPersonaRepository;
+import Entity.Persona;
+import Interface.IPersonaService;
+import Repository.IPersonaRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

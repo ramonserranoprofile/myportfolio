@@ -1,4 +1,5 @@
-package com.ramonserranoportfolio.RS.Entity;
+package Entity;
+
 
 import java.io.Serializable;
 import javax.persistence.Entity;
@@ -14,7 +15,12 @@ import lombok.Setter;
     @Getter @Setter
     @Entity
     public class Persona implements Serializable {
-        @Id
+        /**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
+
+		@Id
         @GeneratedValue (strategy = GenerationType.IDENTITY)
         private  Long id;
         
@@ -28,7 +34,25 @@ import lombok.Setter;
         
         
         @Size (min = 1, max = 50, message = "Revise la longitud")
-        private String img; 
+        private String img;
+
+
+		public void setNombre(String nuevoNombre) {
+			// TODO Auto-generated method stub
+			
+		}
+
+
+		public void setApellido(String nuevoApellido) {
+			// TODO Auto-generated method stub
+			
+		}
+
+
+		public void setImg(String nuevoImg) {
+			// TODO Auto-generated method stub
+			
+		} 
         
         
 }

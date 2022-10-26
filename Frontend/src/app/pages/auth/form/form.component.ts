@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { ACTIONS } from 'src/app/shared/constants/constant';
 import { AuthService } from './services/auth.services';
@@ -17,13 +17,13 @@ interface UserResponse extends User, ApiError { }
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
-  authForm !: FormGroup;
+  authForm !: UntypedFormGroup;
   signIn = ACTIONS.signIn;
   @Input() options!: OptionsForm;
 
   constructor(
     private readonly authSvc: AuthService,
-    private readonly fb: FormBuilder,
+    private readonly fb: UntypedFormBuilder,
     private readonly router: Router,
     private readonly toastSvc: ToastrService,
   ) { }

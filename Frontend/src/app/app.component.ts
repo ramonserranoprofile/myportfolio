@@ -8,12 +8,7 @@ import { PersonaService } from './service/persona.service';
 })
 export class AppComponent {
   title = 'myportfolio';
-  constructor(private PersonaService: PersonaService){}
-  // ngOnInit() {
-  //   this.PersonaService.getPersona().subscribe((res) => {
-  //     console.log('Res ', res);
-  //   });
-  // }
+    
 }
 
 

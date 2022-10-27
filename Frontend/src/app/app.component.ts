@@ -4,16 +4,16 @@ import { PersonaService } from './service/persona.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [PersonaService],
+  
 })
 export class AppComponent {
   title = 'myportfolio';
   constructor(private PersonaService: PersonaService){}
-  ngOnInit() {
-    this.PersonaService.getPersona().subscribe((res) => {
-      console.log('Res ', res);
-    });
-  }
+  // ngOnInit() {
+  //   this.PersonaService.getPersona().subscribe((res) => {
+  //     console.log('Res ', res);
+  //   });
+  // }
 }
 
 

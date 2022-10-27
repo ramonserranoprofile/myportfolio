@@ -116,5 +116,8 @@
       }
     }
   },
-  "defaultProject": "myportfolio"
+  "defaultProject": "myportfolio",
+  "cli": {
+    "analytics": false
+  }
 }

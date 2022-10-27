@@ -10,6 +10,8 @@ import { SkillsComponent } from './pages/skills/skills.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from '@home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

@@ -15,18 +15,15 @@ import lombok.Setter;
     @Getter @Setter
     @Entity
     public class Persona implements Serializable {
-        /**
-		 * 
-		 */
-		private static final long serialVersionUID = 1L;
+        
 
-		@Id
+        @Id
         @GeneratedValue (strategy = GenerationType.IDENTITY)
         private  Long id;
         
         @NotNull
         @Size (min = 1, max = 50, message = "Revise la longitud")
-         private String nombre;
+        private String nombre;
         
         @NotNull
         @Size (min = 1, max = 50, message = "Revise la longitud")
@@ -35,24 +32,4 @@ import lombok.Setter;
         
         @Size (min = 1, max = 50, message = "Revise la longitud")
         private String img;
-
-
-		public void setNombre(String nuevoNombre) {
-			// TODO Auto-generated method stub
-			
-		}
-
-
-		public void setApellido(String nuevoApellido) {
-			// TODO Auto-generated method stub
-			
-		}
-
-
-		public void setImg(String nuevoImg) {
-			// TODO Auto-generated method stub
-			
-		} 
-        
-        
-}
+    }

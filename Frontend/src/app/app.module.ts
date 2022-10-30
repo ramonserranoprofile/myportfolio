@@ -11,6 +11,21 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from '@home/home.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HomeModule } from '@home/home.module';
+import { LoginComponent } from './pages/login/login.component';
+import { LogoComponent } from './pages/logo/logo.component';
+import { PagesModule } from './pages/pages.module';
+import { ExperienciaComponent } from './pages/experiencia/experiencia.component';
+import { interceptorProvider } from './service/interceptor-service';
+import { EditExperienciaComponent } from './pages/experiencia/edit-experiencia.component';
+import { NewExperienciaComponent } from './pages/experiencia/new-experiencia.component';
+import { Experiencia } from 'src/model/experiencia';
+import { EducacionComponent } from './pages/educacion/educacion.component';
+import { CommonModule } from '@angular/common';
+import { EditeducacionComponent } from './pages/educacion/edit-educacion.component';
+import { NeweducacionComponent } from './pages/educacion/new-educacion.component';
+
 
 
 @NgModule({
@@ -20,20 +35,39 @@ import { HomeComponent } from '@home/home.component';
     SkillsComponent,
     ProjectsComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    ExperienciaComponent,
+    LogoComponent,
+    EditExperienciaComponent,
+    NewExperienciaComponent,
+    EducacionComponent,
+    EditeducacionComponent,
+    NeweducacionComponent,
+     
+
+
+
+    
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HeaderModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot({
     preventDuplicates: true,    
     }),
     HttpClientModule,
+    ReactiveFormsModule,
+    CommonModule,
+    
+    
   ],
 
-  providers: [],
+  providers: [interceptorProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -7500,9 +7500,9 @@ readers do not read off random characters that represent icons */
 
 .btn-primary {
     font-size: 16px;
-    width: 200px;
+    width: 160px;
     font-weight: 600;
-    height: 55px;
+    height: 52px;
     text-align: center;
     border: none;
     background-size: 300px 100%;
@@ -7516,17 +7516,22 @@ readers do not read off random characters that represent icons */
     transition: all 0.4s ease;
 }
 
-.btn-secondary {
-    width: 250px;
-    height: 45px;
-    font-size: 30px;
-    border: 5px solid transparent;
-    box-sizing: border-box;
-    background-color: transparent;
-    color: white;
-    transition: 1s ease;
+.btn-secundary {
+    font-size: 16px;
+        width: 130px;
+        font-weight: 600;
+        height: 30px;
+        text-align: center;
+        border: none;
+        background-size: 300px 100%;
+        border-radius: 50px;
+        transition: all 0.4s ease-in-out;
+        color: white;
 }
-
+.btn-secundary:hover {
+    background-position: 100% 0;
+    transition: all 0.4s ease;
+}
 .btn--color {
     background-image: linear-gradient(to right, #1868fd, #3875e6, #04befe, #3c6fbd);
     box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);

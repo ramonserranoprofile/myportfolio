@@ -1,0 +1,83 @@
+<app-logo></app-logo>
+<br><br><br>
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+
+                        <div class="mb-md-5 mt-md-4 pb-5">
+
+                            <h2 class="fw-bold mb-2">Login</h2>
+                            <p class="text-white-50 mb-5">Por favor, ingresar usuario y clave</p>
+
+                            <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+
+                                <div class="form-outline form-white mb-4">
+                                    <label class="form-label" for="nombreUsuario">Usuario</label>
+                                    <input type="email" id="nombreUsuario" name="nombreUsuario"
+                                        class="form-control form-control-lg" [(ngModel)]="nombreUsuario" required />                                                                            
+                                </div>
+
+                                <div class="form-outline form-white mb-4">
+                                    <label class="form-label" for="password">Password</label>
+                                    <input type="password" id="password" name="password"
+                                        class="form-control form-control-lg" [(ngModel)]="password" required />                                       
+                                </div>
+
+                                <!-- <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p> -->
+
+                                <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+
+                            </form>
+
+                        </div>
+
+                        <div>
+                            <p class="mb-0">¿No tienes una cuenta? <a href="#!" class="text-white-50 fw-bold">Sign
+                                    Up</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <section class="auth-form">
+    <div class="text-center">
+        <h1 class="">Sign In</h1>
+    </div>
+    <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+        <div class="mb-3">
+            
+            <input formControlName="email" type="email" id="exampleInputEmail1"
+                aria-describedby="emailHelp" class="form-control" />
+            <label for="exampleInputEmail1" class="form-label">Nombre de Ususario</label>
+
+        </div>
+        <div class="mb-3">
+            <input type="password"  id="exampleInputPassword1" formControlName="password" required  class="form-control"  />
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="button btn-primary btn--color">Sign In</button>
+        </div>
+        <div class="text-center mt-5">
+            <ng-container *ngIf="!isLogged === true ; else showSignTemplate">
+                <a href="signup.html" class="text-black">Create new account</a>
+            </ng-container>
+        </div>
+    </form>
+    <ng-template #showSignTemplate>
+        <a href="signin.html" class="text-black">
+            Already have an account? <small>Sign In here!</small>
+        </a>
+    </ng-template>
+</section> -->
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> -->

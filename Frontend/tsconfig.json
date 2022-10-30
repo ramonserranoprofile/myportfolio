@@ -23,6 +23,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": false,
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,

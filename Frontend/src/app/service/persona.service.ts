@@ -7,8 +7,8 @@ import { persona } from 'src/model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  authURL = 'http://localhost:8080/personas/';
-  //authURL = https://ramonserrano-portfolio.herokuapp.com/personas/
+  //authURL = 'http://localhost:8080/personas/';
+  authURL = 'https://portafoliodb.herokuapp.com/personas/';
   constructor(private http: HttpClient) {}
  
   public getPersona(): Observable<persona>{

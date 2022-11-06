@@ -4,7 +4,9 @@
   "compilerOptions": {
     "outDir": "./out-tsc/app",
     "types": [
-      "jquery"
+      "jquery",
+      "node"
+      
     ]
   },
   "files": [

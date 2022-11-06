@@ -25,6 +25,9 @@ import { EducacionComponent } from './pages/educacion/educacion.component';
 import { CommonModule } from '@angular/common';
 import { EditeducacionComponent } from './pages/educacion/edit-educacion.component';
 import { NeweducacionComponent } from './pages/educacion/new-educacion.component';
+import { ProfileComponent } from './pages/profile/profile.component';
+import { RouterModule } from '@angular/router';
+import { CargarscriptsService } from './service/cargarscripts.service';
 
 
 
@@ -44,8 +47,8 @@ import { NeweducacionComponent } from './pages/educacion/new-educacion.component
     EducacionComponent,
     EditeducacionComponent,
     NeweducacionComponent,
-     
-
+    ProfileComponent,
+    
 
 
     
@@ -63,11 +66,12 @@ import { NeweducacionComponent } from './pages/educacion/new-educacion.component
     HttpClientModule,
     ReactiveFormsModule,
     CommonModule,
-    
+    RouterModule.forRoot([]),
     
   ],
 
-  providers: [interceptorProvider],
+  providers: [interceptorProvider, CargarscriptsService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

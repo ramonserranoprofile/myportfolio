@@ -8,6 +8,7 @@ import { NeweducacionComponent } from './pages/educacion/new-educacion.component
 import { EditExperienciaComponent } from './pages/experiencia/edit-experiencia.component';
 import { NewExperienciaComponent } from './pages/experiencia/new-experiencia.component';
 import { LoginComponent } from './pages/login/login.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 
   // { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -16,15 +17,14 @@ import { LoginComponent } from './pages/login/login.component';
 const routes: Routes = [
   // { path: 'home', redirectTo: '/home', pathMatch: 'full' },
   // { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '', component: HomeComponent },
-  
-     { path: 'nuevaexp', component: NewExperienciaComponent },
-     { path: 'editexp/:id', component: EditExperienciaComponent },
-     { path: 'nuevaedu', component: NeweducacionComponent },
-     { path: 'editedu/:id', component: EditeducacionComponent },
+  { path: '', component: HomeComponent },  
+  { path: 'nuevaexp', component: NewExperienciaComponent },
+  { path: 'editexp/:id', component: EditExperienciaComponent },
+  { path: 'nuevaedu', component: NeweducacionComponent },
+  { path: 'editedu/:id', component: EditeducacionComponent },
   // { path: 'newskill', component: NewSkillComponent },
   // { path: 'editskill/:id', component: EditSkillComponent }
-  
+  { path: 'profile', component: ProfileComponent },
   { path: 'login', component: LoginComponent },
   
   {

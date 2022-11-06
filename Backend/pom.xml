@@ -8,11 +8,11 @@
         <version>2.6.7</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.portfolio</groupId>
-    <artifactId>mgb</artifactId>
+    <groupId>com.ramonserranoportfolio</groupId>
+    <artifactId>RS</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mgb.Produccion</name>
-    <description>Portfolio de MGB</description>
+    <name>RS</name>
+    <description>Portfolio de Ramon Serrano</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

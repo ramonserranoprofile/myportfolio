@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { PersonaService } from './service/persona.service';
+import * as gsap from 'gsap';
+import { CargarscriptsService } from './service/cargarscripts.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,9 +10,13 @@ import { PersonaService } from './service/persona.service';
 })
 export class AppComponent {
   title = 'myportfolio';
-    
+   
+  constructor(){
+    // private _CargaScripts: CargarscriptsService;
+    // _CargaScripts.carga(["script"]);
+    console.log(gsap);    
+  }
 }
-
 
 
 
@@ -32,8 +38,6 @@ jQuery('document').ready(function ($) {
     } else {
       menubar.addClass('nav__open');
     }
-
-
   });
 
 });
@@ -44,4 +48,5 @@ jQuery('document').ready(function ($) {
 //       navi.classList.toggle('nav__open');
 //   });
 // });
+
 

@@ -23,11 +23,12 @@ export class LogoComponent implements OnInit {
 
   onLogOut(): void {
     this.tokenService.logOut();
-    // window.location.reload();
-    this.router.navigate(['/'])
+    window.location.reload();
+    this.router.navigate([''])
   }
 
   login() {
     this.router.navigate(['/login']);
+    window.location.reload();
   }
 }

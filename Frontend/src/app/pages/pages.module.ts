@@ -22,7 +22,7 @@ import { Experiencia } from 'src/model/experiencia';
 
 @NgModule({
   declarations: [
-    ProfileComponent,
+    
     
    
     // LogoComponent,

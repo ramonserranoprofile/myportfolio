@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { LoginUsuario } from 'src/model/login-usuario';
 import { AuthService } from 'src/app/service/auth.service';
 import { TokenService } from 'src/app/service/token.service';
+import { CargarscriptsService } from 'src/app/service/cargarscripts.service';
 
 
 @Component({
@@ -20,7 +21,9 @@ export class LoginComponent implements OnInit {
   roles: string[] = [];
   errMsj!: string;
 
-  constructor(private tokenService: TokenService, private authService: AuthService, private router: Router) { }
+  constructor(private tokenService: TokenService, private authService: AuthService, private router: Router, private _CargaScripts: CargarscriptsService,) { 
+    
+  }
 
   ngOnInit(): void {
     if (this.tokenService.getToken()) {
@@ -50,5 +53,8 @@ export class LoginComponent implements OnInit {
   }
 
 }
+
+
+
 
 

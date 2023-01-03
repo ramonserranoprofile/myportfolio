@@ -28,6 +28,7 @@ import { NeweducacionComponent } from './pages/educacion/new-educacion.component
 import { ProfileComponent } from './pages/profile/profile.component';
 import { RouterModule } from '@angular/router';
 import { CargarscriptsService } from './service/cargarscripts.service';
+import { ConfirmationDialogComponent } from './confirmation-dialog/confirmation-dialog.component';
 
 
 
@@ -48,6 +49,7 @@ import { CargarscriptsService } from './service/cargarscripts.service';
     EditeducacionComponent,
     NeweducacionComponent,
     ProfileComponent,
+    ConfirmationDialogComponent,
     
 
 

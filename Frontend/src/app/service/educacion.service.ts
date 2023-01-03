@@ -9,7 +9,7 @@ import { Educacion } from 'src/model/educacion';
 })
 export class EducacionService {
   //authURL = environment.URL + 'educacion/';
-  authURL = 'https://portafoliodb.herokuapp.com/educacion/';
+  authURL = 'https://portfolio-ramonserrano76.koyeb.app/educacion/';
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<Educacion[]> {

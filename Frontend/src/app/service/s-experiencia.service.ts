@@ -8,7 +8,7 @@ import { Experiencia } from 'src/model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  authURL = 'https://portafoliodb.herokuapp.com/explab/';
+  authURL = 'https://portfolio-ramonserrano76.koyeb.app/explab/';
   //authURL = environment.URL + 'explab/';
   constructor(private httpClient: HttpClient) { }
 

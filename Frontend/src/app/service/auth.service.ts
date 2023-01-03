@@ -11,7 +11,7 @@ import { NuevoUsuario } from 'src/model/nuevo-usuario';
 })
 export class AuthService {
   //authURL = environment.URL + 'auth/';
-  authURL = 'https://portafoliodb.herokuapp.com/auth/';
+  authURL = 'https://portfolio-ramonserrano76.koyeb.app/auth/';
   constructor(private httpClient: HttpClient) { }
 
   public nuevo(nuevoUsuario: NuevoUsuario): Observable<any> {

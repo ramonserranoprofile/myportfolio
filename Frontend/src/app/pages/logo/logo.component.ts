@@ -1,14 +1,14 @@
 
 import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { LoginUsuario } from 'src/model/login-usuario';
 import { AuthService } from 'src/app/service/auth.service';
 import { TokenService } from 'src/app/service/token.service';
-import { CargarscriptsService } from 'src/app/service/cargarscripts.service';
 // import { MatDialog } from '@angular/material/dialog';
 import { ToastrService } from 'ngx-toastr';
 import { NotificationService } from 'src/app/service/notification.service';
-
+import { DatosService } from 'src/app/service/datos.service';
+import { USER_STORAGE_KEY } from '@shared/constants/constant';
+import { Token } from '@angular/compiler';
 
 @Component({
   selector: 'app-logo',
@@ -18,10 +18,21 @@ import { NotificationService } from 'src/app/service/notification.service';
 
 export class LogoComponent implements OnInit {
   isLogged = false;
-  userName: string;
+  @Input() username: string;
+  public isNavOpen: boolean;
   
-  constructor(private router: Router, private tokenService: TokenService, private authService: AuthService, private notificationService: NotificationService, private toastr: ToastrService) {
+  
 
+  constructor(private router: Router, private tokenService: TokenService, private authService: AuthService, private notificationService: NotificationService, private toastr: ToastrService, private datosService: DatosService) {
+    this.datosService.cambiarNombre(this.username);
+  }
+  scroll(id: any) {
+    let el = document.getElementById(id);
+    el.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+    this.isNavOpen = false;
+  }
+  getNombreUsuario() {
+    return this.tokenService.getUserName();
   }
 
   ngOnInit(): void {
@@ -35,10 +46,13 @@ export class LogoComponent implements OnInit {
     this.router.navigate(['/login']);
     window.location.reload();
   }
- 
+
   async onLogOut(): Promise<void> {
     try {
-      // Perform logout logic here
+      let userInfo = this.tokenService.getToken();
+      this.username = this.tokenService.getUserName();
+      this.toastr.success(`¡¡¡Adios, ${this.username}!!!`, 'logout', { timeOut: 3000, positionClass: 'toast-top-center', });
+      // Perform logout logic here    
       this.tokenService.logOut();
       window.location.reload();
       // Redirect to homepage
@@ -50,8 +64,8 @@ export class LogoComponent implements OnInit {
       // Display error message to user
       this.notificationService.showErrorMessage
     }
-    await this.router.navigate(['/home']);
-    this.toastr.success(`¡¡¡Adios, gracias por visitarme!!!`);
+    this.router.navigate(['/home']);
+    
   }
 
 }

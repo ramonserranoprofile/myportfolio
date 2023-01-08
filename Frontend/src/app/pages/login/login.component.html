@@ -1,4 +1,4 @@
-<app-logo></app-logo>
+<app-logo [username]="nombreUsuario"></app-logo>
 <br><br><br>
 <section>
     <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
@@ -143,7 +143,7 @@
                 </svg>
             </div>
         </div>
-
+        
         <div class="form-outline form-white mb-4 inputGroup inputGroup1">
             <label for="email1">Usuario</label>
             <input type="text" id="email" name="nombreUsuario" maxlength="256" class="nombreUsuario form-control form-control-lg" [(ngModel)]="nombreUsuario" required />

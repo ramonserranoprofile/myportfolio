@@ -5,8 +5,7 @@ import { AuthService } from 'src/app/service/auth.service';
 import { TokenService } from 'src/app/service/token.service';
 import { CargarscriptsService } from 'src/app/service/cargarscripts.service';
 import { ToastrService } from 'ngx-toastr';
-import { LogoComponent } from '../logo/logo.component';
-
+import { DatosService } from 'src/app/service/datos.service';
 
 @Component({
   selector: 'app-login',
@@ -15,20 +14,21 @@ import { LogoComponent } from '../logo/logo.component';
 })
 
 export class LoginComponent implements OnInit {
-  
+
   isLogged = false;
   isLogginFail = false;
   loginUsuario!: LoginUsuario;
-  @Input() nombreUsuario: string;
+  nombreUsuario: string;
   password!: string;
   roles: string[] = [];
   errMsj!: string;
-  
-  
-  constructor(private tokenService: TokenService, private authService: AuthService, private router: Router, private _CargaScripts: CargarscriptsService, private toastr: ToastrService) { 
+  nombre_Usuario: void;
+
+
+  constructor(private tokenService: TokenService, private authService: AuthService, private router: Router, private _CargaScripts: CargarscriptsService, private toastr: ToastrService, private datosService: DatosService) {
+
     _CargaScripts.carga(["script"]);
   }
-  
 
 
 
@@ -40,12 +40,13 @@ export class LoginComponent implements OnInit {
       this.roles = this.tokenService.getAuthorities();
     }
   }
-  login() {
-    this.router.navigate(['/login']);
-    window.location.reload();
-  }
+  // login() {
+  //   this.router.navigate(['/login']);
+  //   window.location.reload();
+  // }   
   onLogin(): void {
-    this.loginUsuario = new LoginUsuario(this.nombreUsuario, this.password);
+
+    this.loginUsuario = new LoginUsuario(this.nombreUsuario, this.password, new DatosService());
     this.authService.login(this.loginUsuario).subscribe(data => {
       this.isLogged = true;
       this.isLogginFail = false;
@@ -56,21 +57,25 @@ export class LoginComponent implements OnInit {
       window.location.reload();
       // this.router.navigate(['/home']);
       // this.toastr.success('Login successful'); 
-        
+
     }, err => {
       this.isLogged = false;
       this.isLogginFail = true;
       this.errMsj = err.error.mensaje;
-      console.log(this.errMsj);
+      this.toastr.error(this.errMsj, 'Fail', {
+        timeOut: 3000, positionClass: 'toast-top-center',
+      });
 
     })
-    
-    this.router.navigate(['/home']);
-    
-    this.toastr.success(`¡¡¡Hola ${this.nombreUsuario}!!!`);
-    
-  }
 
+    this.router.navigate(['/home']);
+    let userInfo = this.tokenService.getToken();
+    
+    this.toastr.success(`¡¡¡Hola, ${this.nombreUsuario}!!!`, 'Success', { timeOut: 3000, positionClass: 'toast-top-center', });
+
+    // this.toastr.success(`¡¡¡Hola ${this.tokenService.getUserName()}!!!`,'Success' ,{ timeOut: 3000, positionClass: 'toast-top-center',});
+
+  }
 }
 
 

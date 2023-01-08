@@ -1,32 +1,39 @@
-<div class="row" id="projects" class="projects">
-    <h2 class="projects__title">Education</h2>
-    <div class="col-lg-2" allign="right">
-        <button type="button" class="btn-primary btn--color btn-sm" routerLink="/nuevaedu" *ngIf="isLogged">
-            Agregar Educacion
-        </button>
-        <br><br><br>
-    </div>
+<div id="education">
+    <section id="education" class="skills">
+        <div class="skill__heading" style="opacity: 1; transform: translateX(0px)">
+            <h2 class="skill_title">Education</h2>
+            <p class="skill__paragraph">Learning &amp; Badges</p>
+        </div>
+        <div class="underline"></div>
+        <div class="container">
+            <div class="col-lg-2" allign="right">
+                <button type="button" class="btn-primary btn--color btn-sm" routerLink="/nuevaedu" *ngIf="isLogged">
+                    Agregar Educacion
+                </button>
+                <br><br><br>
+            </div>
 
-    <div class="col lg 1"></div>
-    <div class="col-lg-11">
-        <table class="table" style="color: white">
-            <tbody>
-                <tr *ngFor="let Educacion of educacion">
-                    <td>
-                        <h2>{{Educacion.nombreE}}</h2>
-                    </td>
-                    <td>{{Educacion.descripcionE}}</td>
-                    <td *ngIf="isLogged">
-                        <button class="btn-secundary btn--color btn-sm" routerLink="/editedu/{{Educacion.id}}">
-                            <i class="bi bi-pencil-fill"></i> EDITAR</button>
-                    </td>
-                    <td *ngIf="isLogged">
-                        <button class="btn-secundary btn--color btn-sm" (click)="delete(Educacion.id)">
-                            <i class="bi bi-trash-fill"></i> BORRAR</button>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
+            <div class="col lg 1"></div>
+            <div class="col-lg-11">
+                <table class="table" style="color: white">
+                    <tbody>
+                        <tr *ngFor="let Educacion of educacion">
+                            <td>
+                                <h2>{{Educacion.nombreE}}</h2>
+                            </td>
+                            <td>{{Educacion.descripcionE}}</td>
+                            <td *ngIf="isLogged">
+                                <button class="btn-secundary btn--color btn-sm" routerLink="/editedu/{{Educacion.id}}">
+                                    <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                            </td>
+                            <td *ngIf="isLogged">
+                                <button class="btn-secundary btn--color btn-sm" (click)="delete(Educacion.id)">
+                                    <i class="bi bi-trash-fill"></i> BORRAR</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
 </div>

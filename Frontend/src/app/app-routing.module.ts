@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from '@auth/guards/auth.guard';
 import { SignInComponent } from '@auth/sign-in/sign-in.component';
 import { HomeComponent } from '@home/home.component';
-import { SkillModule } from 'src/model/skill';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { EditeducacionComponent } from './pages/educacion/edit-educacion.component';
@@ -13,6 +12,8 @@ import { NewExperienciaComponent } from './pages/experiencia/new-experiencia.com
 import { LoginComponent } from './pages/login/login.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
+import { EditSkillsComponent } from './pages/skills/edit-skills.component';
+import { NewSkillsComponent } from './pages/skills/new-skills.component';
 import { SkillsComponent } from './pages/skills/skills.component';
 
 
@@ -34,6 +35,8 @@ const routes: Routes = [
   { path: 'profile', component: ProfileComponent },
   { path: 'login', component: LoginComponent },
   { path: 'skills', component: SkillsComponent },
+  { path: 'nuevaskill', component: NewSkillsComponent },
+  { path: 'editskill/:id', component: EditSkillsComponent},
   { path: 'projects', component: ProjectsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },

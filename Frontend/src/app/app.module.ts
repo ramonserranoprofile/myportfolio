@@ -29,6 +29,8 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { RouterModule } from '@angular/router';
 import { CargarscriptsService } from './service/cargarscripts.service';
 import { ConfirmationDialogComponent } from './confirmation-dialog/confirmation-dialog.component';
+import { NewSkillsComponent } from './pages/skills/new-skills.component';
+import { EditSkillsComponent } from './pages/skills/edit-skills.component';
 
 
 
@@ -50,7 +52,9 @@ import { ConfirmationDialogComponent } from './confirmation-dialog/confirmation-
     NeweducacionComponent,
     ProfileComponent,
     ConfirmationDialogComponent,
-    
+    SkillsComponent,
+    NewSkillsComponent,
+    EditSkillsComponent,
 
 
     

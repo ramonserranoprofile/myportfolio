@@ -1,0 +1,357 @@
+#section_3 {
+    width: 98%;
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #ffff;
+    margin: 1em;
+}
+
+.container3 {
+    width: 70%;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 200%;
+    left: 15%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 3em 0 2.5em 0;
+    z-index: 1;
+}
+
+.titulo_container3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.titulo_container3 h1 {
+    font-size: 4em;
+    color: #ffff;
+    margin: 0;
+    padding: 1.5em 0 0 0;
+    text-shadow: 1px 2px 1px #000050, 3px 4px 3px #ffff;
+    transition: transform .4s;
+    /* Animation */
+    z-index: 1;
+}
+
+.titulo_container3 h1:hover {
+    color: #97e9ff;
+    cursor: pointer;
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.titulo_container3 p {
+    font-size: 0.9em;
+    color: #ffff;
+    margin: 0.5em 0 1em 0;
+    padding: 0;
+    text-shadow: 1px 2px 1px #000050, 2px 3px 2px #ffff;
+    z-index: 1;
+}
+
+.indice {
+    width: 70%;
+    height: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.6em;
+}
+
+#indices {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    border-radius: 0.6em;
+}
+
+.indices_top {
+    width: 24%;
+    height: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em;
+    border: 2px solid #ffff;
+    margin: 0 0 1.5em 0;
+    padding: 0.25em 0.5em 0.5em 0.5em;
+    box-shadow: 1px 2px 1px #000050, 2px 3px 2px #ffff;
+    transition: all .5s ease-in-out;
+}
+
+.tecnologia {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em 1em 0.5em 0;
+}
+
+.tecnologia h5 {
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.1em;
+    color: #ffff;
+    margin: 0.3em 0 0.5em 0;
+    text-shadow: 1px 2px 1px #000050, 2px 3px 2px #ffff;
+    transition: transform .4s;
+    /* Animation */
+}
+
+.tecnologia h5:hover {
+    color: #ffff;
+    cursor: pointer;
+    transform: scale(1.4);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* Inicio del Código de los Graficos Circulares Animados de Progreso */
+
+@property --p {
+    syntax: '<number>';
+    inherits: true;
+    initial-value: 0;
+}
+
+.pie {
+    --p: 20;
+    --b: 0.4em;
+    --c: rgb(10, 214, 241);
+    --w: 3.8em;
+
+    width: var(--w);
+    aspect-ratio: 1;
+    position: relative;
+    display: inline-grid;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    place-content: center;
+    font-size: 1.4em;
+    color: #ffff;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 2px 1px #000050, 2px 3px 2px #ffff;
+    margin: 0 0 0.5em 0.25em;
+}
+
+.pie:hover {
+    background-color: rgba(255, 255, 255);
+    color: #000090;
+}
+
+.pie:before,
+.pie:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+
+.pie:before {
+    inset: 0;
+    background:
+        radial-gradient(farthest-side, var(--c) 98%, #0000) top/var(--b) var(--b) no-repeat,
+        conic-gradient(var(--c) calc(var(--p)*1%), #0000 0);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
+    mask: radial-gradient(farthest-side, #0000 calc(99% - var(--b)), #000 calc(100% - var(--b)));
+}
+
+.pie:after {
+    inset: calc(50% - var(--b)/2);
+    background: var(--c);
+    transform: rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+
+}
+
+.pie p {
+    z-index: 1;
+    transition: transform .3s;
+    /* Animation */
+}
+
+.pie p:hover {
+    color: #0000FF;
+    transform: scale(1.4);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.animate {
+    animation: p 1s .5s both;
+}
+
+.no-round:before {
+    background-size: 0 0, auto;
+}
+
+.no-round:after {
+    content: none;
+}
+
+@keyframes p {
+    from {
+        --p: 0
+    }
+}
+
+/* Fin del Código de los Graficos Circulares Animados de Progreso */
+
+.nota {
+    width: 98%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    color: #ffff;
+    font-size: 1em;
+}
+
+.nota h6 {
+    display: flex;
+    text-align: right;
+    font-size: 1.3em;
+    margin: 0 2em 3em 0;
+}
+
+/********************************************************************/
+
+.iconos {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.2em 0.3em 0.2em 0.2em;
+}
+
+.iconos_top {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0.5em 0 0.7em 0;
+}
+
+.btn-edit4A {
+    width: 100%;
+    display: flex;
+    margin: 0.1em;
+}
+
+.btn-edit4A .fa {
+    justify-content: flex-end;
+    color: #ffff;
+    margin: 0 0.8em 0 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.btn-edit5A {
+    display: flex;
+
+
+}
+
+.btn-edit5A i {
+    color: #ffff;
+    margin: 0;
+}
+
+.btn-edit6A {
+    display: flex;
+
+
+}
+
+.btn-edit6A i {
+    color: #ffff;
+    margin: 0;
+}
+
+.iconos_bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+/* ***************     Responsive     *********************** */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .titulo_container3 h1 {
+        font-size: 3em;
+        padding: 3em 0 0 0;
+    }
+
+    /*
+    .indice {
+        width: 100%;
+        padding: 0;
+    }
+*/
+    .pie {
+        font-size: 1.1em;
+    }
+
+    .tecnologia h5 {
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+    .titulo_container3 h1 {
+        font-size: 2em;
+        padding: 4em 0 0 0;
+    }
+
+    .indice {
+        width: 100%;
+        padding: 0;
+    }
+
+    .indices_top {
+        width: 27%;
+        margin: 0 1em 2.5em 0;
+        padding: .25em 0 .5em 0;
+    }
+
+    .pie {
+        font-size: 0.6em;
+    }
+
+    .tecnologia {
+        margin: .5em .25em 0 .5em;
+    }
+
+    .tecnologia h5 {
+        font-size: 0.5em;
+    }
+
+    .iconos_top {
+        margin: 0.5em 1em 0.7em 0;
+    }
+
+    .btn-edit5A i {
+        font-size: 0.6em;
+    }
+
+    .btn-edit6A i {
+        font-size: 0.6em;
+    }
+
+}

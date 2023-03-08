@@ -1,7 +1,6 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from '@auth/guards/auth.guard';
-import { SignInComponent } from '@auth/sign-in/sign-in.component';
 import { HomeComponent } from '@home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
@@ -30,13 +29,11 @@ const routes: Routes = [
   { path: 'editexp/:id', component: EditExperienciaComponent },
   { path: 'nuevaedu', component: NeweducacionComponent },
   { path: 'editedu/:id', component: EditeducacionComponent },
-  // { path: 'newskill', component: NewSkillComponent },
-  // { path: 'editskill/:id', component: EditSkillComponent }
+  { path: 'nuevaskill', component: NewSkillsComponent },
+  { path: 'editskill/:id', component: EditSkillsComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'login', component: LoginComponent },
   { path: 'skills', component: SkillsComponent },
-  { path: 'nuevaskill', component: NewSkillsComponent },
-  { path: 'editskill/:id', component: EditSkillsComponent},
   { path: 'projects', component: ProjectsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },

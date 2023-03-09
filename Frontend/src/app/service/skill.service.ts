@@ -17,7 +17,7 @@ export class SkillService {
     return this.httpClient.get<Skill[]>(this.authURL + 'lista');
   }
   public detail(id: number): Observable<Skill> {
-    return this.httpClient.get<Skill>(this.authURL + 'detail/${id}');
+    return this.httpClient.get<Skill>(this.authURL + `detail/${id}`);
   }
   public save(skill: Skill): Observable<any> {
     return this.httpClient.post<any>(this.authURL + 'create', skill);

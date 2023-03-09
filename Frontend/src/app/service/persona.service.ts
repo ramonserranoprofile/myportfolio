@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { environment } from 'src/environments/environment'; 
 import { Observable } from 'rxjs';
 import { persona } from 'src/model/persona.model';
 
@@ -7,7 +8,7 @@ import { persona } from 'src/model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  //authURL = 'http://localhost:8080/personas/';
+ // authURL =  environment.URL + 'personas/';
   authURL = 'https://portfolio-ramonserrano76.koyeb.app/personas/';
   constructor(private http: HttpClient) {}
  

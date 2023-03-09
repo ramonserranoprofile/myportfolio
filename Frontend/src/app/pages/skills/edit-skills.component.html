@@ -4,11 +4,10 @@
             <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
                 <div class="form-group">
                     <label for="nombre"><span style="color:white">Nombre de la skill</span></label>
-                    <input type="text" class="form-control" id="nombre" name="nombre" [(ngModel)]="skill.nombre"
-                        required>
+                    <input type="text" class="form-control" id="nombre" name="nombre" [(ngModel)]="skill.nombre" required>
                 </div>
                 <div class="form-group">
-                    <label for="porcentaje"><span style="color:white">Porcentaje</span></label>
+                    <label for="porcentaje"><span style="color:white">Descripcion de la tarea</span></label>
                     <input type="text" class="form-control" id="porcentaje" name="porcentaje"
                         [(ngModel)]="skill.porcentaje" required>
                 </div>

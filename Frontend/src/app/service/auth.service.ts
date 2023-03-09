@@ -10,7 +10,7 @@ import { NuevoUsuario } from 'src/model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  //authURL = environment.URL + 'auth/';
+ // authURL = environment.URL + 'auth/';
   authURL = 'https://portfolio-ramonserrano76.koyeb.app/auth/';
   constructor(private httpClient: HttpClient) { }
 

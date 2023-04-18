@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import { environment } from "src/environments/environment";
 import { BehaviorSubject, Observable } from "rxjs";
 import { USER_STORAGE_KEY } from "src/app/shared/constants/constant";
-import { User, UserCredentials } from "@supabase/gotrue-js";
+// import { User, UserCredentials } from "@supabase/gotrue-js";
 
 
 

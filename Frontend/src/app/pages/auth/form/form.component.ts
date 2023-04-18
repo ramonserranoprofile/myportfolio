@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import { ACTIONS } from 'src/app/shared/constants/constant';
 import { AuthService } from './services/auth.services';
 import { ToastrService } from 'ngx-toastr';
-import { ApiError, User, UserCredentials } from '@supabase/gotrue-js';
+// import { ApiError, User, UserCredentials } from '@supabase/gotrue-js';
 export interface OptionsForm {
   id: string;
   label: string;
@@ -16,7 +16,7 @@ interface UserResponse extends User, ApiError { }
   templateUrl: './form.component.html',
   styleUrls: ['./form.component.css']
 })
-export class FormComponent implements OnInit {
+/* export class FormComponent implements OnInit {
   authForm !: UntypedFormGroup;
   signIn = ACTIONS.signIn;
   @Input() options!: OptionsForm;
@@ -65,4 +65,4 @@ export class FormComponent implements OnInit {
     this.router.navigate(['/home']);
   }
 
-}
+} */
